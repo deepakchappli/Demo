@@ -1,5 +1,5 @@
 name: Maven CI/CD
-#this is for testing purpose.
+
 on:
  push:
     branches: [ master ]
