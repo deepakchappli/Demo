@@ -19,7 +19,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
  * Unit test for simple App.
  */
 public class DemoApplitools {
-
+//this is a example.
     public static void main(String[] args) {
         // Create a new chrome web driver
         WebDriver webDriver = new ChromeDriver();
