@@ -24,7 +24,7 @@ jobs:
     - name: Build project with Maven
       run: mvn -B package --file pom.xml
       
-      batch-completion-notification:
+ batch-completion-notification:
     needs: run-tests
     if: always()
     runs-on: ubuntu-latest
